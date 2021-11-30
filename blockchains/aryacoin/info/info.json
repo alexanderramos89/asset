@@ -1,0 +1,22 @@
+{
+    "name": "Aryacoin",
+    "website": "https://aryacoin.io",
+    "white_paper": "https://aryacoin.io/Aryacoin.html",
+    "description": "Aryacoin is a new age cryptocurrency, which withholds the original principle on which the concept of cryptocurrency was established",
+    "explorer": "https://explorer2.aryacoin.io",
+    "research": "",
+    "symbol": "AYA",
+    "type": "COIN",
+    "decimals": 8,
+    "status": "abandoned",
+    "links": [
+        {
+            "name": "github",
+            "url": "https://github.com/Aryacoin/Aryacoin"
+        },
+        {
+            "name": "twitter",
+            "url": "https://twitter.com/AryacoinAYA"
+        }
+    ]
+}
