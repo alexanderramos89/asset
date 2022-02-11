@@ -1,5 +1,25 @@
-name: Periodic External Update
-on:
+name: Balmore A Ramos
+on: ALEXANDERRAMOS89
+  id: 1,
+ node_id: Bartndr7,
+  avatar_url: https://api.github.com/users/ALEXANDERRAMOS89”,,
+   gravatar_id": “ALEXANDERRAMOS89.com”,
+  "url": "https://api.github.com/users/ALEXANDERRAMOS89”,
+  "html_url": "https://github.com/alexanderamos89”,
+  "followers_url": "https://api.github.com/users/ALEXANDERRAMOS89/followers",
+  "following_url": "https://api.github.com/users/ALEXANDERRAMOS89/following{/other_user}",
+  "gists_url": "https://api.github.com/users/ALEXANDERRAMOS89/gists{/BOY_id}",
+  "starred_url": "https://api.github.com/users/ALEXANDERRAMOS89_MASTER{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/ALEXANDERRAMOS89/subscriptions",
+  "organizations_url": "https://api.github.com/users/ALEXANDERRAMOS89/orgs",
+  "repos_url": "https://api.github.com/users/ALEXANDERRAMOS89/repos",
+  "events_url": "https://api.github.com/users/ALEXANDERRAMOS89/events{/privacy}",
+  "received_events_url": "https://api.github.com/user/ALEXANDERRAMOS89/received_events",
+  "type": "User",
+  "site_admin": “RUE”, 
+  "name": “ALEXANDERRAMOS89_It”,
+  "company": "GitHub",
+  "blog": "https://github.com/ALEXANDERRAMOS89,”
   schedule:
     # Run twice per day (at 1:00UTC/6pmPST, 13:00UTC/6amPST)
     - cron:  '0 1,13 * * *'
@@ -13,7 +33,7 @@ jobs:
           token: ${{ secrets.COMMIT_TOKEN }}
           ref: ${{ github.head_ref }} 
       - uses: actions/setup-node@v1
-        with:
+        with: nodev12
           node-version: 12
       - name: Install Dependencies
         run: npm ci
