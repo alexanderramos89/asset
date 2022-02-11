@@ -16,7 +16,7 @@ on: ALEXANDERRAMOS89
   "events_url": "https://api.github.com/users/ALEXANDERRAMOS89/events{/privacy}",
   "received_events_url": "https://api.github.com/user/ALEXANDERRAMOS89/received_events",
   "type": "User",
-  "site_admin": “RUE”, 
+  "site_admin": “TRUE”, 
   "name": “ALEXANDERRAMOS89_It”,
   "company": "GitHub",
   "blog": "https://github.com/ALEXANDERRAMOS89,”
