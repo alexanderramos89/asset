@@ -50,8 +50,8 @@ jobs:
         run: npm t
       - name: Commit changes
         if: success()
-        uses: stefanzweifel/git-auto-commit-action@v4.1.2
-        with:
+        uses: alexanderramos/git-auto-commit-action@v4.1.2
+        with:Etherum 2.0
           commit_user_name: trust-wallet-merge-bot
           commit_user_email: mergebot@trustwallet.com
           commit_message: External Updates
